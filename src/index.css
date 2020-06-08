@@ -175,6 +175,16 @@ color:black;
   text-decoration:none;
 }
 
+#message-confirm {
+  display:none;
+  color:green;
+}
+
+#error-message {
+  display:none;
+  color:red;
+}
+
 .btn {
   height:80px;
   width:300px;
