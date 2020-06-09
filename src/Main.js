@@ -22,7 +22,6 @@ import ChapterThirteenInfo from './bk-pages/ChapThirteenInfo'
 import PreBankruptcyInfo from './bk-pages/PreBankruptcyInfo'
 import ProcessOfBankruptcy from './bk-pages/ProcessOfBankruptcy'
 
-
 import Faqs from './pages/Faqs'
 import LoanModification from './pages/LoanModificationAssistance'
 import Payment from './pages/Payment'
@@ -118,7 +117,7 @@ class Main extends Component {
           zIndex: 100
         }
       }
-    const menu = ['Home', 'About','Services', 'FAQs', 'Bankruptcy']
+    const menu = ['Home', 'About', 'Services', 'FAQs', 'Bankruptcy']
     const menuItems = menu.map((val, index) => {
       return (
         <MenuItem
@@ -141,29 +140,45 @@ class Main extends Component {
 
               <div style={styles.menuContainer}>
 
-                <NavLink to='/'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+                <NavLink style={{textDecoration:'none'}}to='/'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
           >
           Home
           </div></NavLink>
 
-          <NavLink to='/about'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+                <div style={styles.line} />
+
+                <NavLink style={{textDecoration:'none'}}to='/about'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
     >
     About
     </div></NavLink>
-    <NavLink to='/services'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+
+                <div style={styles.line} />
+
+                <NavLink style={{textDecoration:'none'}}to='/services'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
 >
 Services
 </div></NavLink>
-<NavLink to='/services/FAQs'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+
+                <div style={styles.line} />
+
+                <NavLink style={{textDecoration:'none'}}to='/services/FAQs'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
 >
 FAQs
 </div></NavLink>
-<NavLink to='/services/chapter-7-bankruptcy'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+
+                <div style={styles.line} />
+
+                <NavLink style={{textDecoration:'none'}}to='/bankruptcy/chapter-seven-bankruptcy-info'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
 >
 Bankruptcy
 </div></NavLink>
                 <div style={styles.line} />
 
+                <NavLink style={{textDecoration:'none'}} to='/contact'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+>
+Contact
+</div></NavLink>
+                <div style={styles.line} />
 
               </div>
             </HashRouter>
@@ -172,8 +187,24 @@ Bankruptcy
           <HashRouter>
             <div className='content'>
               <Route exact path='/' component={Home} />
-              <Route path='/about' component={About} />
-              <Route path='/services' component={Services} />
+              <Route exact path='/about' component={About} />
+              <Route exact path='/services' component={Services} />
+              <Route exact path='/services/chapter-7-bankruptcy' component={ChapterSeven} />
+              <Route exact path='/services/chapter-13-bankruptcy' component={ChapterThirteen} />
+              <Route exact path='/services/creditor-defense' component={CreditorDefense} />
+              <Route exact path='/services/debt-negotiation-and-settlement' component={DebtNegotiation} />
+              <Route exact path='/services/FAQs' component={Faqs} />
+              <Route exact path='/services/loan-modification-assistance' component={LoanModification} />
+              <Route exact path='/services/payment' component={Payment} />
+              <Route exact path='/services/pre-bankruptcy-planning' component={PreBankruptcy} />
+              <Route exact path='/services/process-of-bankruptcy' component={TheProcess} />
+              <Route exact path='/services/protection-from-creditors' component={ProtectionFrom} />
+              <Route exact path='/disclaimer-and-privacy-policy' component={Disclaimer} />
+              <Route exact path='/bankruptcy/chapter-seven-bankruptcy-info' component={ChapterSevenInfo} />
+              <Route exact path='/bankruptcy/chapter-thirteen-bankruptcy-info' component={ChapterThirteenInfo} />
+              <Route exact path='/bankruptcy/pre-bankruptcy-planning-info' component={PreBankruptcyInfo} />
+              <Route exact path='/bankruptcy/the-process-of-bankruptcy' component={ProcessOfBankruptcy} />
+              <Route exact path='/contact' component={Contact} />
 
             </div>
           </HashRouter>
@@ -182,33 +213,30 @@ Bankruptcy
         <MediaQuery minDeviceWidth={769}>
           <HashRouter>
 
-
             <div id='menu-container'>
               <MediaQuery minDeviceWidth={769}><NavLink exact to='/'><img id='logo' src='assets/img/ACLAW_LOGO.png' /></NavLink></MediaQuery>
 
               <div id='menu'>
 
-              <div class="menu-contact flex-row">
+                <div class='menu-contact flex-row'>
 
-                <a href="mailto:alexcoomer@alexcoomerlaw.com" ><img class="email-icon" src="assets/img/email.svg" /></a>
-                <a href="tel:520-372-2475"><img class="phone-icon" src="assets/img/phone-call.svg" /></a>
-                <a href="https://secure.lawpay.com/pages/alexcoomerlaw/operating" target="_blank"><h3 class="payment-header">Make a Payment</h3></a>
-              </div>
-              <hr class="underline-header" />
-              <div class="flex-row">
-                <h1><NavLink exact to='/'>Home</NavLink></h1>
-                <h1 className='our-team'><NavLink to='/about'>About</NavLink></h1>
-                <h1 className='services'><NavLink to='/services'>Services</NavLink></h1>
-                <h1 className='services'><NavLink to='/services/faqs'>FAQs</NavLink></h1>
-                <h1 className='services'><NavLink to='/bankruptcy/chapter-seven-bankruptcy-info'>Bankruptcy</NavLink></h1>
-                <h1 className='services'><NavLink to='/contact'>Contact</NavLink></h1>
+                  <a href='mailto:alexcoomer@alexcoomerlaw.com' ><img class='email-icon' src='assets/img/email.svg' /></a>
+                  <a href='tel:520-372-2475'><img class='phone-icon' src='assets/img/phone-call.svg' /></a>
+                  <a href='https://secure.lawpay.com/pages/alexcoomerlaw/operating' target='_blank'><h3 class='payment-header'>Make a Payment</h3></a>
+                </div>
+                <hr class='underline-header' />
+                <div class='flex-row'>
+                  <h1><NavLink exact to='/'>Home</NavLink></h1>
+                  <h1 className='our-team'><NavLink to='/about'>About</NavLink></h1>
+                  <h1 className='services'><NavLink to='/services'>Services</NavLink></h1>
+                  <h1 className='services'><NavLink to='/bankruptcy/chapter-seven-bankruptcy-info'>Bankruptcy</NavLink></h1>
 
-              </div>
+                  <h1 className='services'><NavLink to='/services/faqs'>FAQs</NavLink></h1>
+                  <h1 className='services'><NavLink to='/contact'>Contact</NavLink></h1>
+
+                </div>
               </div>
             </div>
-
-
-
 
             <div className='content'>
               <Route exact path='/' component={Home} />
@@ -235,11 +263,9 @@ Bankruptcy
           </HashRouter>
         </MediaQuery>
 
-
       </div>
 
     )
-
   }
 
 }

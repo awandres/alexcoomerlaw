@@ -185,7 +185,7 @@ It is intimidating and difficult to begin the legal process with many large firm
           <div class='services-intro'>
             <h1 class='headlines'>HOW WE HELP</h1>
 
-            <p>Alex Coomer Law, PLLC offers a wide range of services for average people burdened by debt</p>
+            <p><img class="acbc-logo" src="assets/img/ACBC-logo.png" />Alex Coomer Law, PLLC offers a wide range of services for average people burdened by debt</p>
 
             <p>These services include:</p>
 
@@ -288,7 +288,8 @@ It is intimidating and difficult to begin the legal process with many large firm
 
   <div class="flex-col">
     <img id="profile" src="/assets/img/alex1.jpg" />
-    <h2 class="bio-info">Alex Coomer, Esq.</h2>
+    <h2 class="bio-info">R. Alexander Coomer, Attorney at Law</h2>
+    <img class="acbc-logo" src="assets/img/ACBC-logo.png" />
 </div>
     <div class="flex-col">
       <h2 class="headlines">A Lawyer Who Listens</h2>

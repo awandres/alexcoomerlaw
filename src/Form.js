@@ -46,7 +46,7 @@ class Form extends Component {
 
           axios({
               method: "POST",
-              url:"http://localhost:3002/send",
+              url:"https://alexcoomerlaw.com:3002/send",
               data: {
                   name: name,
                   email: email,
@@ -67,6 +67,15 @@ class Form extends Component {
 
                 document.getElementById('error-message').style.display ="block"
               }
+
+              else {
+                console.log(response.data.msg)
+                document.getElementById('message-confirm').style.display ="none"
+
+                document.getElementById('error-message').style.display ="block"
+              }
+
+
           })
       }
 
@@ -123,7 +132,7 @@ class Form extends Component {
               <textarea id='message' type='text' placeholder='MESSAGE' />
               <input id='submit' type='submit' value='SUBMIT' />
               <h3 id="message-confirm">Message Sent Successfully. We will be in touch!</h3>
-              <h3 id="error-message">There was an error processing the form.</h3>
+              <h3 id="error-message">There was an error processing the form. Please send an email to alexcoomer@alexcoomerlaw.com</h3>
             </form>
 
 

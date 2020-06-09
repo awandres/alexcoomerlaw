@@ -42,7 +42,7 @@ class Faqs extends Component {
           <div class='services-pg-div flex-col'>
 
             <div class='flex-row services-pg-col-container'>
-              <div class='services-pg-col-1 flex-col'>
+              <div class='faq-pg-col-1 flex-col'>
 
                 <div >
                   <img class='services-pg-icon' src='assets/img/icons/courthouse.png' /><h3>FAQs</h3>
@@ -74,7 +74,7 @@ class Faqs extends Component {
                       <AnchorLink href='#faq19'><h5>Can you take my bankruptcy case if I live in Maricopa County? </h5></AnchorLink>
                     </div>
                   </div>
-
+                <div class="mobile-faq-content">
                   <h4 id='what-is-personal-chapter-7-bankruptcy'>What is personal Chapter 7 Bankruptcy?</h4>
 
                   <p>In one relatively long sentence -  when an ordinary person’s debts become so unmanageable, their income cannot reasonably support their household expenses, and also pay back the debts, they can file for bankruptcy and the bankruptcy process helps manage the problem, ideally with the vast majority of unsecured debts being discharged.            </p>
@@ -237,12 +237,12 @@ class Faqs extends Component {
                   <p>No, at the present moment, Alex Coomer Law, PLLC only files bankruptcies for individuals residing in Pima, Cochise, Graham, Greenlee, and Santa Cruz County.</p>
 
                   <p>I am confident I can refer you to a very good Maricopa bankruptcy attorney who can help you, if you would like my recommendation.             </p>
-
+                  </div>
                 </div>
 
               </div>
 
-              <div class='services-pg-col-2'>
+              <div class='faq-pg-col-2'>
 
                 <div>
                   <Link exact to='/services/chapter-7-bankruptcy'><h2>Chapter 7 Bankruptcy</h2></Link>

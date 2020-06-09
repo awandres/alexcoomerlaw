@@ -167,7 +167,7 @@ color:black;
   color:white;
   text-align: center;
   padding:20px 0px;
-  background-color:rgba(155,155,155, .5);
+  background-color:rgba(50,50,50, .4);
   margin-top:300px;
 }
 
@@ -610,7 +610,17 @@ text-decoration:none;
   margin-right:10px;
 }
 
+.faq-pg-col-1 {
+  width:70%;
+  margin-right:10px;
+}
+
 .services-pg-col-2 {
+  width:30%;
+  padding:0px;
+}
+
+.faq-pg-col-2 {
   width:30%;
   padding:0px;
 }
@@ -626,7 +636,23 @@ text-decoration:none;
   background-color:white;
 }
 
+.faq-pg-col-1 div {
+  border:none;
+  box-shadow: none;
+  padding:5px;
+  margin:0px 0px;
+  display:flex;
+  align-content: flex-start;
+  flex-direction: column;
+  background-color:white;
+}
+
 .services-pg-col-1 h4 {
+background-color:rgba(247,202,153,.4);
+font-size:25px;
+}
+
+.faq-pg-col-1 h4 {
 background-color:rgba(247,202,153,.4);
 font-size:25px;
 }
@@ -641,7 +667,25 @@ font-size:25px;
 
 }
 
+.faq-pg-col-2 div {
+  border:1px solid black;
+  box-shadow: 2px 2px 3px grey;
+  margin:30px 10px;
+  display:flex;
+  background-color:white;
+  flex-direction: column;
+
+}
+
 .services-pg-col-2 h2 {
+  border-top:1px ridge black;
+  border-bottom:1px ridge black;
+  margin:0;
+
+padding:20px;
+}
+
+.faq-pg-col-2 h2 {
   border-top:1px ridge black;
   border-bottom:1px ridge black;
   margin:0;
@@ -797,7 +841,7 @@ padding:20px;
 
 .lawyer-about-pic {
   width:400px;
-
+  height:520px;
   padding-right:00px;
   margin-bottom:100px;
 }
@@ -813,6 +857,32 @@ padding:20px;
   display:flex;
   margin-bottom:00px;
   flex-direction: row;
+}
+
+.awards {
+  margin-left:40px;
+  width:80%;
+}
+
+.awards h3 {
+  font-size:24px;
+}
+
+.acbc-logo {
+  width:200px!important;
+  display:inline;
+}
+
+.services-intro .acbc-logo {
+  display:inline;
+  clear:both;
+  float:right;
+  margin-top:-20px;
+}
+
+.about-section .acbc-logo {
+  align-self:flex-end;
+  margin-right:80px;
 }
 
 
@@ -1081,6 +1151,7 @@ font-size:18px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 00px 00px;
+
 }
 
 #hero-header h1 {
@@ -1091,7 +1162,7 @@ font-size:18px;
     color: white;
     text-align: center;
     padding: 0px;
-    background-color: rgba(155,155,155, .5);
+        background-color:rgba(50,50,50, .4);
     margin-top: 100px;
 }
 
@@ -1238,7 +1309,7 @@ font-size:18px;
     color: white;
     text-align: center;
     padding: 0px;
-    background-color: rgba(155,155,155, .5);
+        background-color:rgba(50,50,50, .4);
     margin-top: 100px;
 }
 
@@ -1267,7 +1338,7 @@ font-size:18px;
 
 .content-div img {
     width: auto;
-    height:300px;
+    height:240px;
     padding-left: 0px;
     margin-bottom:10px;
 }
@@ -1295,7 +1366,7 @@ font-size:18px;
 }
 
 .services-div {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     padding: 10px;
     margin-top:30px;
@@ -1368,7 +1439,7 @@ font-size:18px;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -200px -00px;
+    background-position: -500px -00px;
 }
 
 .faq-banner {
@@ -1376,7 +1447,7 @@ font-size:18px;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -200px -00px;
+    background-position: 00px -00px;
 }
 
 .services-hero h1 {
@@ -1393,7 +1464,7 @@ font-size:18px;
 }
 
 .bankruptcy-hero h1 {
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 8px;
     font-weight: 100;
     border: 1px solid white;
@@ -1418,10 +1489,19 @@ font-size:18px;
     margin-top: 100px;
 }
 
+.mobile-faq-content {
+  width:135%;
+  padding:20px!important;
+}
+
+.faq-container {
+  flex-direction:column!important;
+}
+
 .services-pg-div {
     width: 100%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px;
 }
 
 .services-pg-col-2 {
@@ -1430,9 +1510,25 @@ font-size:18px;
     font-size: 8px;
 }
 
-.form-services-pg-div .form {
+.faq-pg-col-2 {
+    width: 30%;
+    padding: 0px;
+    font-size: 8px;
+}
+
+.faq-col-1 {
   width:100%;
+}
+
+.faq-col-2 {
+  width:100%;
+}
+
+.form-services-pg-div .form {
+  width:95%;
   opacity:1;
+  margin:0 auto;
+  padding:10px;
 }
 
 .form-services-pg-div {
@@ -1441,7 +1537,7 @@ font-size:18px;
     height: auto;
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 0px;
+    padding: 10px;
 }
 
 .services-pg-div h3 {
@@ -1502,9 +1598,12 @@ padding-top:10px;
 
 .lawyer-about-pic {
     width: 300px;
+    height:400px;
     padding-right: 00px;
     margin-bottom: 20px;
 }
+
+
 
 .lawyer-pic-block {
     display: flex;
@@ -1520,8 +1619,45 @@ padding-top:10px;
 }
 
 #profile {
-    height: 500px;
+    height: 440px;
     margin-right: 100px;
+}
+
+.about-section .acbc-logo {
+  margin-bottom:20px;
+}
+
+.contact-container {
+  margin-top:200px;
+}
+
+.contact-flex {
+  flex-direction:column;
+}
+
+.contact-left {
+  margin:0 auto;
+  width:80%;
+  padding-bottom:30px;
+}
+
+.contact-right {
+  width:90%;
+  margin:0 auto;
+  margin-top:-20px;
+  padding-bottom:20px;
+}
+
+.contact-img {
+  width:200px;
+}
+
+.email-icon-contact {
+  width:35px;
+}
+
+.phone-icon-contact {
+  width:35px;
 }
 
 
