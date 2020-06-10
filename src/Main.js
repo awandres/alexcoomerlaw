@@ -16,6 +16,7 @@ import CreditorDefense from './pages/CreditorDefense'
 import DebtNegotiation from './pages/DebtNegotiationAndSettlement'
 import PreBankruptcy from './pages/PreBankruptcyPlanning'
 import ProtectionFrom from './pages/ProtectionFromCreditors'
+import StudentLoan from './pages/StudentLoanAdvisoryServices'
 
 import ChapterSevenInfo from './bk-pages/ChapSevenInfo'
 import ChapterThirteenInfo from './bk-pages/ChapThirteenInfo'
@@ -195,6 +196,8 @@ Contact
               <Route exact path='/services/debt-negotiation-and-settlement' component={DebtNegotiation} />
               <Route exact path='/services/FAQs' component={Faqs} />
               <Route exact path='/services/loan-modification-assistance' component={LoanModification} />
+              <Route exact path='/services/student-loan-advisory-services' component={StudentLoan} />
+
               <Route exact path='/services/payment' component={Payment} />
               <Route exact path='/services/pre-bankruptcy-planning' component={PreBankruptcy} />
               <Route exact path='/services/process-of-bankruptcy' component={TheProcess} />
@@ -252,6 +255,8 @@ Contact
               <Route exact path='/services/pre-bankruptcy-planning' component={PreBankruptcy} />
               <Route exact path='/services/process-of-bankruptcy' component={TheProcess} />
               <Route exact path='/services/protection-from-creditors' component={ProtectionFrom} />
+              <Route exact path='/services/student-loan-advisory-services' component={ProtectionFrom} />
+
               <Route exact path='/disclaimer-and-privacy-policy' component={Disclaimer} />
               <Route exact path='/bankruptcy/chapter-seven-bankruptcy-info' component={ChapterSevenInfo} />
               <Route exact path='/bankruptcy/chapter-thirteen-bankruptcy-info' component={ChapterThirteenInfo} />

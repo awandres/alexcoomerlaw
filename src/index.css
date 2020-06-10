@@ -468,6 +468,10 @@ text-decoration:none;
   width:70%;
 }
 
+.disclaimer-div p {
+  font-size:15px;
+}
+
 
 
 /*SERVICES PAGE*/
@@ -759,6 +763,7 @@ padding:20px;
 .back-to-top {
   font-weight:bold;
   text-align: right;
+  z-index:9999;
 }
 
 .numbered-list {

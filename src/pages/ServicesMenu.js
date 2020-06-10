@@ -52,6 +52,13 @@ checkActiveClass(url) {
                 }
               }}><h2>Chapter 13 Bankruptcy</h2></Link>
 
+              <Link class={ this.checkActiveClass('/process-of-bankruptcy') ? 'active-service' : '' } exact to={{
+                pathname:"/services/process-of-bankruptcy",
+                state: {
+                  fromServices: true
+                }
+              }}><h2>Process of Bankruptcy</h2></Link>
+
               <Link class={ this.checkActiveClass('/pre-bankruptcy-planning') ? 'active-service' : ''} exact to={{
                 pathname:"/services/pre-bankruptcy-planning",
                 state: {
@@ -73,12 +80,7 @@ checkActiveClass(url) {
                 }
               }}><h2>Debt Negotiation and Settlement</h2></Link>
 
-              <Link class={ this.checkActiveClass('/protection-from-creditors') ? 'active-service' : '' } exact to={{
-                pathname:"/services/protection-from-creditors",
-                state: {
-                  fromServices: true
-                }
-              }}><h2>Protection from Creditors</h2></Link>
+
 
               <Link class={ this.checkActiveClass('/creditor-defense') ? 'active-service' : '' } exact to={{
                 pathname:"/services/creditor-defense",
@@ -86,6 +88,22 @@ checkActiveClass(url) {
                   fromServices: true
                 }
               }}><h2>Creditor Defense</h2></Link>
+
+              <Link class={ this.checkActiveClass('/student-loan-advisory-services') ? 'active-service' : '' } exact to={{
+                pathname:"/services/student-loan-advisory-services",
+                state: {
+                  fromServices: true
+                }
+              }}><h2>Student Loan Advisory Services</h2></Link>
+
+              <Link class={ this.checkActiveClass('/protection-from-creditors') ? 'active-service' : '' } exact to={{
+                pathname:"/services/protection-from-creditors",
+                state: {
+                  fromServices: true
+                }
+              }}><h2>Protection from Creditors</h2></Link>
+
+
 
               <Link class={ this.checkActiveClass('/FAQs') ? 'active-service' : '' } exact to={{
                 pathname:"/services/FAQs",
@@ -101,12 +119,7 @@ checkActiveClass(url) {
                 }
               }}><h2>Payment</h2></Link>
 
-              <Link class={ this.checkActiveClass('/process-of-bankruptcy') ? 'active-service' : '' } exact to={{
-                pathname:"/services/process-of-bankruptcy",
-                state: {
-                  fromServices: true
-                }
-              }}><h2>Process of Bankruptcy</h2></Link>
+
               </div>
 
 

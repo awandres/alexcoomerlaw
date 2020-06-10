@@ -88,7 +88,7 @@ class Faqs extends Component {
                   <p>For some people, it is legally impossible to file a Chapter 7 bankruptcy.  For example, the bankruptcy code only allows a person to file for bankruptcy once every eight years.  If someone filed for bankruptcy five years ago and is in need of bankruptcy protection again, Chapter 13 may be the solution.  There are many other reasons why someone may need to file under Chapter 13, in addition to timing considerations.            </p>
 
                   <p>In conclusion, while the basic idea of bankruptcy is relatively straight forward, understanding and navigating the nuanced bankruptcy code is complex.  To fully understand the best strategies to protect you and your family from creditors, it is always wise to consider a consultation with a skilled bankruptcy attorney to discuss your personal situation.</p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink style={{zIndex:'9999'}} href='#top'>Back to Top ^ </AnchorLink></p>
                   <h4 id='faq2'>If I file for Bankruptcy, can I keep my home?</h4>
 
                   <p>Most of the time, yes.  All situations are unique and deserve independent analysis, however, whether you keep your home or not will depend mostly around how much you owe on the house and how much your house is worth.  The difference between what you owe on your house and what your house is worth is considered “equity” in the home. </p>
@@ -96,7 +96,7 @@ class Faqs extends Component {
                   <p>Under Arizona law, if the equity in your home is $150,000 or less, proper usage and application of the “homestead exemption” in a Chapter 7 bankruptcy case would provide an excellent avenue to protect your home.   Please note that you would still remain obligated to pay the mortgage on your house if you filed for Bankruptcy, but you certainly would not be forced to sell your house to pay unsecured creditors.            </p>
 
                   <p>If the equity in your home exceeds $150,000, this situation is more difficult to explain, and the outcomes can be varied, depending on your personal financial situation, your desire, and nature of the debts.  Do not worry if the equity in your home does exceed $150,000.  With the help of a skilled bankruptcy attorney, there are still ways to structure a personal bankruptcy in order to preserve your primary family home.            </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq3'>What if my house is in the foreclosure process right now?</h4>
 
@@ -105,21 +105,21 @@ class Faqs extends Component {
                   <p>Let me repeat, if your house is presently in the foreclosure process, this is a big deal!  It is highly advised that you call an attorney who can take your call right away and assist.            </p>
 
                   <p>With respect to stopping a foreclosure through bankruptcy and saving your house, this is possible, but timing and immediate action is of the utmost importance.             </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq4'>Will I lose my retirement savings if I file for bankruptcy?</h4>
 
                   <p>Almost all retirement accounts (401ks, IRAs, etc.) are considered “exempt” property.  Exempt property cannot be seized to pay creditors.  So, short answer -- no.            </p>
 
                   <p>If you need to file for bankruptcy, it is your attorney’s job to help identify all exempt assets, similar to retirement accounts, and disclose these assets appropriately to the Bankruptcy Court and Trustee in your Petition filings to properly protect your exempt property from creditors.            </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq5'>Will I lose my car if I file for Bankruptcy?</h4>
 
                   <p>Maybe -- it depends on many factors.   For instance, how much is your car worth?  How much do you owe?  Are you married? Do you have any other vehicles that are fully paid off or nearly paid off? If so, how much are those vehicles worth?  Do you want to keep this particular car or would you be happy to get rid of the car to the lender for whatever reason?  Do you have multiple loans on the vehicle? </p>
 
                   <p>In the event of financial problems, it is the job of your bankruptcy attorney to help you establish the best strategy for you, your family, and your given situation with respect to car ownership, the law, and life. </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq6'>What is secured and unsecured debt?</h4>
 
@@ -130,21 +130,21 @@ class Faqs extends Component {
                   <p>Unsecured debt are loans or credit lines that are based on your personal guarantee.  These are debts not secured by real estate or the purchased item.  These consumer debts commonly include credit card debt, medical debt, past-due rent, and all other debts driven by your guarantee to pay.  Unsecured debts, depending on your income and assets, are the most likely form of debt to be discharged in bankruptcy. </p>
 
                   <p>A bankruptcy lawyer helps properly identify all of your debts, establish what is legally dischargeable, what is not dischargeable, and come up with the best plan for you.  In some cases, in consultation with an attorney, pre-bankruptcy planning is extremely helpful in order to maximize the amount of discharge. </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq7'>What about student loans?            </h4>
 
                   <p>Even though a student loan may seem like an unsecured loan because it is not secured by anything other than your promise to pay, the bankruptcy code treats student loans differently than other unsecured debt. Unfortunately, the current state of bankruptcy law as applied to student loans is not favorable to borrowers.  Most student loans are not dischargeable in bankruptcy.  There are limited exceptions, but, in general, it is very difficult to get student loans discharged through bankruptcy.            </p>
 
                   <p>If you are behind on student loans, there are other options besides bankruptcy, such as loan consolidation, forbearance on payments due to economic hardship, or applying to be placed into affordable income based repayment plans for Federal student loans. </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq8'>Will a Chapter 7 Bankruptcy stop wage garnishments? </h4>
 
                   <p>Yes, in most situations.  Once you file for bankruptcy, an “automatic stay” will be put in place on all collection efforts by your creditors.  This includes wage garnishments.   In certain circumstances, it is possible to recover past wage garnishments that have already been seized by creditors through the bankruptcy process. </p>
 
                   <p>If your wages are being garnished presently, or your creditors are threatening to garnish your wages, and you are worried, please consider contacting a bankruptcy attorney who can help you right away.            </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq9'>How long will the whole Bankruptcy process take?</h4>
 
@@ -155,7 +155,7 @@ class Faqs extends Component {
                   <p>Under a very fast scenario, without any delays whatsoever, from start to finish on a Chapter 7 no-asset case, could be completed in as little as four to six weeks. </p>
 
                   <p>Chapter 13 bankruptcy proceedings are long and slow.  Chapter 13 bankruptcy proceedings can last between three and five years, sometimes longer. </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq10'>What exactly is a Trustee? </h4>
 
@@ -166,7 +166,7 @@ class Faqs extends Component {
                   <p>If there are assets to be sold, the Trustee’s job is to acquire the assets, sell them (“liquidation”), and distribute the proceeds to creditors in accordance with bankruptcy law. Unfortunately, the timeline on this process is uncertain as it takes the Trustee an uncertain amount of time to complete the job. </p>
 
                   <p>In a Chapter 13 bankruptcy, the Trustee’s job is far more complex and the role of the Trustee will depend greatly on the specific situation of the person filing for bankruptcy and the creditors.            </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq11'>What if I have a lot of personal property?  Why can’t I give my property to a friend or family member?</h4>
 
@@ -177,7 +177,7 @@ class Faqs extends Component {
                   <p>Bankruptcy is a process for the honest debtor.  Bankruptcy is not a process designed to hide, scam, cheat, or defraud your creditors. (Emphasis added).            </p>
 
                   <p>If you have moved or transferred property and are now nervous, there are potential solutions that a bankruptcy attorney can suggest.  It is not the end of the world if you think you made a mistake with respect to the transfer of property because a good bankruptcy attorney can help you navigate the process back. </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq12'>Why are Bankruptcy lawyers helpful? </h4>
 
@@ -192,7 +192,7 @@ class Faqs extends Component {
                   <p>Your bankruptcy lawyer is there to make sure the details don’t get missed, every exemption is sought, and all discharges are maximized with as little stress and work on you as possible. You will need to work closely and diligently with providing documents and information to your bankruptcy lawyer, but the heavy lifting will never be on your shoulders. </p>
 
                   <p>The idea is this -- a good bankruptcy attorney provides you peace of mind.  How much is this worth to you? </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq13'>How much do your bankruptcy services cost? </h4>
 
@@ -203,34 +203,34 @@ class Faqs extends Component {
                   <p>Until a bankruptcy lawyer knows the extent of what is wrong with the financial situation and how many issues need to be resolved, it is impossible to accurately know how much time it will take to fix and how much the services will cost. </p>
 
                   <p>Alex Coomer Law, PLLC offers a completely free initial consultation in order to get an understanding of your situation such that an accurate, fair, and reasonable price for services can be provided.  If you would like to schedule a free consultation, please call 520-372-2475 to start the process.</p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq14'>Do you work on an hourly rate?</h4>
 
-                  <p>Yes. The hourly rate depends on the nature of the case, client, and situation.  Please see (link to list of services) for services offered. </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p>Yes.  The hourly rate depends on the nature of the case, client, and situation.</p>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq15'>Do you accept credit cards?</h4>
 
                   <p>Alex Coomer Law, PLLC is not allowed to accept a credit card payment for attorney’s fees from a bankruptcy client who intends to list such payment of fees on a credit card as a debt in a bankruptcy proceeding.</p>
 
                   <p>Credit card payments, in some circumstances, may be accepted from third parties who pay the fee on a bankruptcy client’s behalf. </p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq16'>Do you take contingency based personal injury cases? </h4>
 
                   <p>No, but I am confident I can refer you to a very good local attorney who does, if you would like my recommendation.</p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq17'>Do you take criminal cases?</h4>
 
                   <p>No, but I am confident I can refer you to a very good local attorney who does, if you would like my recommendation.</p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq18'>Do you take divorce or family law cases?</h4>
 
                   <p>No, but I am confident I can refer you to a very good local attorney who does, if you would like my recommendation.</p>
-                  <AnchorLink href='#top'><p class="back-to-top">Back to Top ^ </p></AnchorLink>
+                  <p class="back-to-top"><AnchorLink href='#top'>Back to Top ^ </AnchorLink></p>
 
                   <h4 id='faq19'>Can you take my bankruptcy case if I live in Maricopa County? </h4>
 
