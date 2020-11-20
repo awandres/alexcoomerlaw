@@ -233,6 +233,19 @@ It is intimidating and difficult to begin the legal process with many large firm
               }}>
                 <div class="generic-button">More Info</div></Link>
                     </div>
+
+
+                    <div>
+                    <img class='services-icon' src='assets/img/icons/creditcard.png' /><h3>Student Loan Advisory Services:</h3>
+
+                    <p>The law is an ever-moving target, especially Bankruptcy law and how student loans are viewed.  Depending on your situation, whether you have government or private student loans, and your personal socio-economic situation, there are often viable solutions for individuals drowning under excessive student loans and egregious monthly payments.  There is an old saying -- You don’t know what you don’t know until you know it.  With respect to excessive student loans, student loan advisory support with an attorney may open up various options you never knew existed.  </p>
+                      <Link class="generic-button" exact to={{
+                        pathname:"/services/student-loan-advisory-services",
+                        state: {
+                          fromServices: false
+                        }
+                      }}>                  <div class="generic-button">More Info</div></Link>
+                    </div>
             </div>
 
             <div class='services-col-2 flex-col'>

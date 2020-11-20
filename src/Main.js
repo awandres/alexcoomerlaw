@@ -255,7 +255,7 @@ Contact
               <Route exact path='/services/pre-bankruptcy-planning' component={PreBankruptcy} />
               <Route exact path='/services/process-of-bankruptcy' component={TheProcess} />
               <Route exact path='/services/protection-from-creditors' component={ProtectionFrom} />
-              <Route exact path='/services/student-loan-advisory-services' component={ProtectionFrom} />
+              <Route exact path='/services/student-loan-advisory-services' component={StudentLoan} />
 
               <Route exact path='/disclaimer-and-privacy-policy' component={Disclaimer} />
               <Route exact path='/bankruptcy/chapter-seven-bankruptcy-info' component={ChapterSevenInfo} />

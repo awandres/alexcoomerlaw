@@ -5,6 +5,10 @@ font-family: 'Libre Franklin', sans-serif;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.hide {
+  display:none!important;
+}
+
 body {
   background-color: #fff;
   padding: 0px;
@@ -266,7 +270,7 @@ color:black;
 .form-div {
   background-image:  url("/assets/img/statue-flipped.jpg");
   background-color:#FFCB9A;
-  height:650px;
+  height:auto;
   background-size:contain;
   background-repeat:no-repeat;
   background-position: -200px 100px;
@@ -275,8 +279,8 @@ color:black;
 
 .form {
   background-color:white;
-  height:500px;
-  width:900px;
+  height:auto;
+  width:700px;
   margin-left:400px;
   padding:80px;
 }

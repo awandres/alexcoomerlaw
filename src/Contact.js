@@ -44,8 +44,8 @@ class Contact extends Component {
     <a href="tel:520-372-2475"><img class="phone-icon-contact" src="assets/img/phone-call.svg" /></a>
     </div>
 
-  <p>Email: alexcoomer@alexcoomerlaw.com</p>
-  <p>Phone: 520-372-2475</p>
+  <a style={{color:'black', textDecoration:'none'}} href="mailto:alexcoomer@alexcoomerlaw.com" ><p style={{textDecoration:'none'}}>Email: alexcoomer@alexcoomerlaw.com</p></a>
+  <a  style={{color:'black', textDecoration:'none'}} href="tel:520-372-2475"><p style={{textDecoration:'none'}}>Phone: (520) 372-2475</p></a>
 
 </div>
 
@@ -56,7 +56,7 @@ class Contact extends Component {
 
         <p>Second, you may email Alex directly at alexcoomer@alexcoomerlaw.com.  In your email, please provide a brief explanation as to your issue, your contact information, and the best time to reach you.  You will then receive a call back as soon as Alex is available to call you.  (Please do not write your social security number or any confidential personal information in the email.)</p>
 
-        <p>Third, you may complete the form below or elsewhere on this website.  Please complete each box and then submit your information.  This information will be provided to Alex and he will then respond to you as soon as he can.   (Please do not write your social security number or any confidential personal information in the contact form.)</p>
+        <p>Third, you may complete the form below or elsewhere on this website (currently under maintenance).  Please complete each box and then submit your information.  This information will be provided to Alex and he will then respond to you as soon as he can.   (Please do not write your social security number or any confidential personal information in the contact form.)</p>
 </div>
         </div>
 
