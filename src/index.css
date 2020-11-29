@@ -46,8 +46,12 @@ a:visited {
   padding-right:50px;
 }
 
+.citations {
+  font-size:14px;
+}
+
 /* NEW */
-.blog-container {
+.blog-item-container {
   margin-top:240px;
   /* padding-bottom:100px; */
 }
@@ -555,7 +559,7 @@ text-decoration:none;
 
 /*SERVICES PAGE*/
 
-.services-hero, .testimonials-hero {
+.services-hero, .testimonials-hero, .blog-hero {
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -627,7 +631,11 @@ text-decoration:none;
   background-color:rgba(247,202,153,.4);
 }
 
-.services-hero h1, .testimonials-hero h1 {
+.blog-pg-content-home {
+  padding-top:0px!important;
+}
+
+.services-hero h1, .testimonials-hero h1, .blog-hero h1 {
   font-size:90px;
   letter-spacing: 8px;
   font-weight:100;
@@ -884,6 +892,15 @@ padding:20px;
   background-image:  url("/assets/img/alexcourt2.jpg");
   width:100%;
   height:800px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: 0px 00px;
+}
+
+.blog-pg-banner {
+  background-image: url("/assets/img/statues-library.jpg");
+  width:100%;
+  height:600px;
   background-size:cover;
   background-repeat:no-repeat;
   background-position: 0px 00px;
@@ -1428,7 +1445,7 @@ font-size:18px;
   padding-top:0px;
 }
 
-.blog-container {
+.blog-item-container {
   margin-top:260px;
 }
 
@@ -1442,7 +1459,7 @@ font-size:18px;
   padding:40px;
 }
 
-.blog-container {
+.blog--item-container {
   margin-top:130px;
 }
 
@@ -1451,7 +1468,20 @@ font-size:18px;
   margin-top:100px;
 }
 
+.blog-hero h1 {
+  font-size:50px;
+  margin-top:100px;
+}
+
 .about-pg-banner {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -50px 00px;
+}
+
+.blog-pg-banner {
     width: 100%;
     height: 400px;
     background-size: cover;
@@ -1664,6 +1694,19 @@ font-size:18px;
   margin-top: 100px;
 }
 
+.blog-hero h1 {
+  font-size:40px;
+  letter-spacing: 8px;
+  font-weight: 100;
+  border: 1px solid white;
+  /* width: 100%; */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(50,50,50, .4);
+  margin-top: 100px;
+}
+
 .bankruptcy-hero h1 {
     font-size: 40px;
     letter-spacing: 8px;
@@ -1753,6 +1796,14 @@ font-size:18px;
     background-position: -50px 00px;
 }
 
+.blog-pg-banner {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: -50px 00px; */
+}
+
 .about-pg-content {
     width: 90%;
     margin: 0 auto;
@@ -1772,7 +1823,7 @@ font-size:18px;
 padding-top:10px;
 }
 
-.blog-container {
+.blog-item-container {
   margin-top:150px;
 }
 

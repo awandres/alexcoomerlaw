@@ -16,17 +16,17 @@ class WhenShouldIFile extends Component {
   render () {
     return (
       <div id='body'>
-<div class="blog-container">
+<div class="blog-item-container">
         <div class='blog-pg-content-container'>
           <div class='blog-pg-content'>
 
             <div class="blog-post-list-item">
               <h2 class="headlines main-bg">When Should I File for Bankruptcy?</h2>
 
-<p>By: Alex Coomer</p>
-<p>www.alexcoomerlaw.com</p>
-<p>November 24, 2020</p>
-<p>©Alex Coomer Law, PLLC, All Rights Reserved.</p>
+              <p>By: Alex Coomer<br />
+              November 24, 2020<br />
+              <a href="www.alexcoomerlaw.com">www.alexcoomerlaw.com</a><br />
+              ©Alex Coomer Law, PLLC, All Rights Reserved.</p>
 	<p>If you are thinking about filing for bankruptcy, a critical factor is to decide when you actually file the case.  In other words, if you choose to file for bankruptcy, you must establish the optimal date to file the case to obtain the greatest relief in terms of the largest discharge with incurring the least risk of anything going wrong.  The fact of the matter is that bankruptcy law is nuanced and timing considerations are baked into and throughout the code.  Timing issues create pitfalls if you don’t know what to look out for.  It takes awareness of these timing issues and careful planning to increase the value and chance of success of any bankruptcy petition.</p>
 <p>This article will address five timing considerations every bankruptcy petition preparer and filer should think about when deciding the appropriate date to file a case.</p>
 <h3 class="headlines main-bg"><span class="bold">1.) Tax Refund</span> -- Are you going to be receiving a tax refund this year?  If so, how much will the refund be?</h3>
@@ -63,7 +63,11 @@ class WhenShouldIFile extends Component {
 <p>Nearly identical to the property of the estate logic contained within the tax refund issue described above, if you are owed money by anyone, you do not want to file a bankruptcy case until you are paid back, are assured you will not being getting paid back (i.e. the other party is a turnip), or you just cannot wait any longer to file your case for other reasons.</p>
 <p>On your bankruptcy petition, you will need to let the Court and the Trustee know if anyone owes money to you or if you have a legal claim against anyone else.  This money owed to you or your claim against another party is property of your estate and the Trustee will want that property.  If you file a case too early and have not actually collected on this money or pursued your claim fully, the Trustee will take your place and seek to collect your money to pay creditors.   This is why, sometimes, even though you may qualify for bankruptcy, it might be best to wait to file a case and to pursue the collections or claim you have against others first.</p>
 </div>
-	<p>In conclusion, when you file a bankruptcy case involves a complex assessment of a number of variables.  Some cases certainly are less complex than others, but all cases deserve a careful and detailed analysis.  This is fundamentally why it is valuable to hire a lawyer to assist you with filing for bankruptcy.  The truth of the matter is -- you don’t know what you don’t know until you know it.  With bankruptcy, it is often too late once you learn your lesson and it is always advised to, at least, get a free consultation with a bankruptcy attorney if you are contemplating filing.</p>
+	<p>In conclusion, when you file a bankruptcy case involves a complex assessment of a number of variables.  Some cases certainly are less complex than others, but all cases deserve a careful and detailed analysis.  This is fundamentally why it is valuable to hire a lawyer to assist you with filing for bankruptcy.  The truth of the matter is -- you don’t know what you don’t know until you know it.  With bankruptcy, it is often too late once you learn your lesson and it is always advised to, at least, get a free consultation with a bankruptcy attorney if you are contemplating filing.</p><br /><br />
+
+<p class="bold pull-left">See Next Blog Post - <Link exact to="/blog/posts/what-to-do-about-the-student-loan-crisis"><a>"What To Do About the Student Loan Crisis?"</a></Link></p>
+
+<p class="bold pull-right"><Link exact to="/blog"><a>Back to Blog Posts Home</a></Link></p>
 
             </div>
 
