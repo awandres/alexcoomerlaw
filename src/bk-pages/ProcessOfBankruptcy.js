@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import BankruptcyMenu from './BankruptcyMenu'
 import ServicesForm from "../pages/ServicesForm";
+import Social from '../Social'
 
 class ProcessOfBankruptcy extends Component {
   componentDidMount () {
@@ -100,7 +101,7 @@ class ProcessOfBankruptcy extends Component {
 
           </div>
         </div>
-
+        <Social />
         <ServicesForm />
 
 

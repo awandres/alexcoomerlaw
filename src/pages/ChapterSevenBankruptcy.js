@@ -6,6 +6,8 @@ import {
 } from 'react-router-dom';
 import ServicesMenu from "./ServicesMenu";
 import ServicesForm from "../pages/ServicesForm";
+import Social from '../Social'
+
 
 import { createBrowserHistory } from 'history';
 export const history = createBrowserHistory();
@@ -108,7 +110,7 @@ In one relatively long sentence -  when an ordinary person’s debts become so u
 
 <p>Maybe -- it depends on many factors.   For instance, how much is your car worth?  How much do you owe?  Are you married? Do you have any other vehicles that are fully paid off or nearly paid off? If so, how much are those vehicles worth?  Do you want to keep this particular car or would you be happy to get rid of the car to the lender for whatever reason?  Do you have multiple loans on the vehicle?  </p>
 
-<p>In the event of financial problems, it is the job of your bankruptcy attorney to help you establish the best strategy for you, your family, and your given situation with respect to car ownership, the law, and life.</p>    
+<p>In the event of financial problems, it is the job of your bankruptcy attorney to help you establish the best strategy for you, your family, and your given situation with respect to car ownership, the law, and life.</p>
 
 <h4>What is secured and unsecured debt?</h4>
 
@@ -162,6 +164,20 @@ In one relatively long sentence -  when an ordinary person’s debts become so u
 
 <p>If you have moved or transferred property and are now nervous, there are potential solutions that a bankruptcy attorney can suggest.  It is not the end of the world if you think you made a mistake with respect to the transfer of property because a good bankruptcy attorney can help you navigate the process back. </p>
 
+<h4>I’ve talked to several bankruptcy attorneys, but I do not know who I should hire.  Should I just hire the attorney who quoted me the cheapest fee?  Are bankruptcy attorneys all the same?  </h4>
+
+<p>Cost is obviously a major factor when it comes to your decision as to who to hire as your attorney, but it is not the only thing to consider.  </p>
+
+<p>Every attorney is different. Consider the big picture.  Going through a personal debt crisis, business failure, or bankruptcy will be emotionally difficult for most people and, for some especially, it is critically important to have a lawyer who you connect with personally, who listens to you intently at all times, and who you know has your back. </p>  
+
+<p>If you find it difficult to get in touch or garnish the attention of your attorney, this is a red flag and likely someone you do not want to work with.   You are NOT a number.   Please be wary of “bankruptcy mills” in Tucson and Southern Arizona.  Bankruptcy mills work and operate on volume.  A volume business model makes it difficult for you to obtain the personal relationship you should have with your attorney.  </p>
+
+<p>Finally, the bankruptcy process is not particularly fast.  You will be working closely with your bankruptcy lawyer during the preparation of the bankruptcy petition for several months, maybe longer. </p>  
+
+<p>For these practical reasons, you want to hire a lawyer you like.  You want a lawyer you want to work with during this trying process.  Debt resolution, loan modifications, and bankruptcy are difficult things to go through.  To make sure the process is as painless as possible for you, it is important to have a true and genuine relationship with your attorney.  </p>
+
+<p>Put simply -- don’t be fooled by the lowest cost attorney.  There is more to the equation in assessing who is the right attorney for you.  </p> 
+
 
                 </div>
 
@@ -179,7 +195,7 @@ In one relatively long sentence -  when an ordinary person’s debts become so u
 
           </div>
         </div>
-
+        <Social />
         <ServicesForm />
 
 

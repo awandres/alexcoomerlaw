@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import ServicesMenu from "./ServicesMenu";
 import ServicesForm from "../pages/ServicesForm";
+import Social from '../Social'
 
 
 
@@ -113,7 +114,7 @@ class ChapterThirteen extends Component {
 
           </div>
         </div>
-
+        <Social />
         <ServicesForm />
 
 

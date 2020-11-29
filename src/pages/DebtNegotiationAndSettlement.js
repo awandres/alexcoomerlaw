@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import ServicesMenu from "./ServicesMenu";
 import ServicesForm from "../pages/ServicesForm";
+import Social from '../Social'
 
 
 
@@ -69,7 +70,7 @@ class DebtNegotiation extends Component {
 
           </div>
         </div>
-
+        <Social />
         <ServicesForm />
 
 

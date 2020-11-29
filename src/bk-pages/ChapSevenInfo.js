@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import BankruptcyMenu from "./BankruptcyMenu";
 import ServicesForm from "../pages/ServicesForm";
+import Social from '../Social'
 
 import { createBrowserHistory } from 'history';
 export const history = createBrowserHistory();
@@ -178,6 +179,7 @@ class ChapterSevenInfo extends Component {
           </div>
         </div>
 
+<Social />
         <ServicesForm />
 
 

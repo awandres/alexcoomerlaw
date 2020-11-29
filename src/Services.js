@@ -6,56 +6,10 @@ import {
 } from 'react-router-dom'
 import ServicesMenu from "./pages/ServicesMenu";
 import ServicesForm from "./pages/ServicesForm";
+import Social from './Social'
 
-var currentIndex = null
-var currentRealtorIndex = null
 
-const testimonials = [{
-  name: 'Pam P',
-  review: 'As soon as we met our CapStar Agent, we knew we wanted her to list our home. She attended every showing to make sure potential buyers had the opportunity to see all the features of the house and she always made sure showings were to only qualified buyers. Her knowledge of real estate sales and the market was invaluable when we received an offer and she guided us through the negotiation process. She is a true professional and we feel fortunate to have her as our agent'
-},
-  {
-    name: 'Lena C., Attorney',
-    review: "Our CapStar Agent is amazing! I first got to know her as a potential buyer. I then referred my estate clients to her, and she had the house under contract in under 10 days. Despite unexpected last minute issues that were beyond seller's control and with our Agent's expertise, they were still able to close as scheduled. When my husband needed to sell his rental property, we spent no time deciding on whom to call. Again, she went above and beyond and thanks to her connections and expertise, the job was done in the shortest time possible. We had two offers in 11 days."
-  },
-  {
-    name: 'Martin H',
-    review: 'Our CapStar Agents is a very knowledgeable realtor. She helped us 15 years ago to purchase the right house for our family. We have also recommended her to friends and neighbors. She also put our home on the market, staged it and offers were given in 2 days. She is great and I would highly recommend Her!'
-  },
-  {
-    name: 'Jerry R',
-    review: 'Having used a CapStar Agent services to both buy our house originally, and on referral sales, we knew what to expect from her. Trust, truth, dedication, mastery of the art of Real Estate matters - including staging our home in such a manner that we had multiple offers within the first 24 hours - were what we expected and what we got. She is our Go To Agent for any Real Estate needs in or around Frederick, Montgomery and Washington counties in MD. Her network of high-performing agents stand-by ready to jump in and help. When you meet her, you will know why.'
-  },
-  {
-    name: 'Sara S',
-    review: 'Our CapStar Agent is very knowledgeable and made buying our first house a very easy process! She knew the answer to all the questions we asked and was there for us whenever we needed her (including weekends). Would highly recommend her when trying to buy your first home or any home!'
-  },
-  {
-    name: 'Jessica E',
-    review: 'Working with Capstar was an absolutely fantastic experience! Our Agent was extremely knowledgeable about the local Market, as well as every real estate question/situation that arose throughout the process. I have both bought and sold a house with her and have worked with her for the last 5 years. My house went under contract for full asking price in 3 days. I would highly recommend her to any of my friends and family, and have done so with great success!'
-  }]
 
-const realtors = [{
-  name: 'Joe Anselmo',
-  image: 'assets/images/joe-cropped.jpg',
-  class: 'joe'
-},
-  {
-    name: 'Geni Donnelly',
-    image: 'assets/images/geni-rs.jpg',
-    class: 'geni-rs'
-  },
-  {
-    name: 'Nina Abell',
-    image: 'assets/images/nina.jpg',
-    class: 'nina'
-  },
-  {
-    name: 'Michelle Poe',
-    image: 'assets/images/michelle-bio-2.jpg',
-    class: 'michelle'
-  }
-]
 
 class Services extends Component {
 
@@ -165,7 +119,7 @@ class Services extends Component {
 
           </div>
         </div>
-
+<Social />
 <ServicesForm />
 
 

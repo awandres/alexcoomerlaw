@@ -5,6 +5,7 @@ import {
   HashRouter
 } from 'react-router-dom'
 import Form from './Form'
+import Social from './Social'
 
 var currentIndex = null
 var currentRealtorIndex = null
@@ -167,7 +168,7 @@ class Home extends Component {
             <div class='text-div'>
               <h2 class='headlines'>Take control of your debt.</h2>
               <hr class='underline' />
-              <p>Alex Coomer Law is here to serve the Southern Arizona community, specializing in bankruptcy and debt relief help to ordinary people.<br /><br />
+              <p>Alex Coomer Law is here to serve the Southern Arizona and Tucson community.  Alex Coomer Law proudly helps individuals obtain debt relief and seek protection under the bankruptcy code.<br /><br />
 
 It is intimidating and difficult to begin the legal process with many large firms.  With Alex Coomer Law, you will find the process understandable and achievable.
 </p>
@@ -179,6 +180,8 @@ It is intimidating and difficult to begin the legal process with many large firm
         </div>
 
 <Form />
+
+<Social />
 
         <div class='services-div flex-col'>
 
@@ -253,7 +256,7 @@ It is intimidating and difficult to begin the legal process with many large firm
               <div>
                 <img class="services-icon" src="assets/img/icons/scale-icon.png" /><h3>Debt Negotiation and Settlement:</h3>
 
-                <p>Bankruptcy is not right for all people.  In some situations, it is possible to negotiate various debts down or structure a new payment plan that works for you.  A bankruptcy lawyer, fighting for you and looking out for your best interest, during debt negotiations can be a very valuable tool to level the playing field during debt negotiations.</p>
+                <p>Bankruptcy is not right for all people.  In some situations, it is possible to negotiate various debts down or structure a new payment plan that works for you.  A bankruptcy lawyer, fighting for you and looking out for your best interest, can be a very valuable tool to level the playing field during debt negotiations.</p>
 
                 <Link class="generic-button" exact to={{
                   pathname:"/services/debt-negotiation-and-settlement",

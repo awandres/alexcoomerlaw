@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import ServicesMenu from './ServicesMenu'
 import ServicesForm from "../pages/ServicesForm";
+import Social from '../Social'
 
 
 class TheProcess extends Component {
@@ -100,7 +101,7 @@ class TheProcess extends Component {
 
           </div>
         </div>
-
+<Social />
 <ServicesForm />
 
 

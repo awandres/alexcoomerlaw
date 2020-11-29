@@ -4,6 +4,8 @@ import {
   Link,
   HashRouter
 } from 'react-router-dom'
+import Social from './Social'
+
 
 class About extends Component {
 
@@ -67,13 +69,18 @@ class About extends Component {
               <p>Tucson Metro Soccer League (TMSL), Board Member (inactive). </p>
 
               <img src="assets/img/ACBC-logo.png" />
+              </div>
+              </div>
 
-              </div>
-              </div>
             </div>
+
           </div>
+
         </div>
+        <Social />
+
       </div>
+
 
     )
   }

@@ -5,6 +5,7 @@ import {
   HashRouter
 } from "react-router-dom";
 import Form from './Form'
+import Social from './Social'
 
 
 
@@ -46,7 +47,6 @@ class Contact extends Component {
 
   <a style={{color:'black', textDecoration:'none'}} href="mailto:alexcoomer@alexcoomerlaw.com" ><p style={{textDecoration:'none'}}>Email: alexcoomer@alexcoomerlaw.com</p></a>
   <a  style={{color:'black', textDecoration:'none'}} href="tel:520-372-2475"><p style={{textDecoration:'none'}}>Phone: (520) 372-2475</p></a>
-
 </div>
 
 <div class="contact-right">
@@ -61,6 +61,8 @@ class Contact extends Component {
         </div>
 
         </div>
+        <Social />
+
 <Form />
       </div>
 

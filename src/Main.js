@@ -9,6 +9,12 @@ import Home from './Home'
 import About from './About'
 import Services from './Services'
 import Contact from './Contact'
+import Testimonials from './Testimonials'
+import Blog from './Blog'
+
+import WhenShouldIFile from './blog/posts/WhenShouldIFile'
+import WhatToDoStudentLoans from './blog/posts/WhatToDoStudentLoans'
+
 
 import ChapterSeven from './pages/ChapterSevenBankruptcy'
 import ChapterThirteen from './pages/ChapterThirteenBankruptcy'
@@ -118,7 +124,7 @@ class Main extends Component {
           zIndex: 100
         }
       }
-    const menu = ['Home', 'About', 'Services', 'FAQs', 'Bankruptcy']
+    const menu = ['About', 'Services', 'FAQs', 'Bankruptcy', 'Testimonials', 'Blog']
     const menuItems = menu.map((val, index) => {
       return (
         <MenuItem
@@ -141,41 +147,48 @@ class Main extends Component {
 
               <div style={styles.menuContainer}>
 
-                <NavLink style={{textDecoration:'none'}}to='/'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
-          >
-          Home
-          </div></NavLink>
 
-                <div style={styles.line} />
 
-                <NavLink style={{textDecoration:'none'}}to='/about'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+                <NavLink style={{textDecoration: 'none'}}to='/about'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
     >
     About
     </div></NavLink>
 
                 <div style={styles.line} />
 
-                <NavLink style={{textDecoration:'none'}}to='/services'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+                <NavLink style={{textDecoration: 'none'}}to='/services'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
 >
 Services
 </div></NavLink>
 
                 <div style={styles.line} />
 
-                <NavLink style={{textDecoration:'none'}}to='/services/FAQs'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+                <NavLink style={{textDecoration: 'none'}}to='/services/FAQs'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
 >
 FAQs
 </div></NavLink>
 
                 <div style={styles.line} />
 
-                <NavLink style={{textDecoration:'none'}}to='/bankruptcy/chapter-seven-bankruptcy-info'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+                <NavLink style={{textDecoration: 'none'}}to='/bankruptcy/chapter-seven-bankruptcy-info'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
 >
 Bankruptcy
 </div></NavLink>
                 <div style={styles.line} />
 
-                <NavLink style={{textDecoration:'none'}} to='/contact'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+                <NavLink style={{textDecoration: 'none'}}to='/testimonials'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+>
+Testimonials
+</div></NavLink>
+                <div style={styles.line} />
+
+                <NavLink style={{textDecoration: 'none'}}to='/blog'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
+>
+Blog
+</div></NavLink>
+                <div style={styles.line} />
+
+                <NavLink style={{textDecoration: 'none'}} to='/contact'><div style={styles.menuItem} onClick={() => this.handleMenuClick()}
 >
 Contact
 </div></NavLink>
@@ -208,6 +221,12 @@ Contact
               <Route exact path='/bankruptcy/pre-bankruptcy-planning-info' component={PreBankruptcyInfo} />
               <Route exact path='/bankruptcy/the-process-of-bankruptcy' component={ProcessOfBankruptcy} />
               <Route exact path='/contact' component={Contact} />
+              <Route exact path='/testimonials' component={Testimonials} />
+              <Route exact path='/blog' component={Blog} />
+
+              <Route exact path='/blog/posts/when-should-I-file-for-bankruptcy' component={WhenShouldIFile} />
+              <Route exact path='/blog/posts/what-to-do-about-the-student-loan-crisis' component={WhatToDoStudentLoans} />
+
 
             </div>
           </HashRouter>
@@ -229,12 +248,14 @@ Contact
                 </div>
                 <hr class='underline-header' />
                 <div class='flex-row'>
-                  <h1><NavLink exact to='/'>Home</NavLink></h1>
                   <h1 className='our-team'><NavLink to='/about'>About</NavLink></h1>
                   <h1 className='services'><NavLink to='/services'>Services</NavLink></h1>
                   <h1 className='services'><NavLink to='/bankruptcy/chapter-seven-bankruptcy-info'>Bankruptcy</NavLink></h1>
 
                   <h1 className='services'><NavLink to='/services/faqs'>FAQs</NavLink></h1>
+                  <br />
+                  <h1 className='services'><NavLink to='/testimonials'>Testimonials</NavLink></h1>
+                  <h1 className='services'><NavLink to='/blog'>Blog</NavLink></h1>
                   <h1 className='services'><NavLink to='/contact'>Contact</NavLink></h1>
 
                 </div>
@@ -263,6 +284,13 @@ Contact
               <Route exact path='/bankruptcy/pre-bankruptcy-planning-info' component={PreBankruptcyInfo} />
               <Route exact path='/bankruptcy/the-process-of-bankruptcy' component={ProcessOfBankruptcy} />
               <Route exact path='/contact' component={Contact} />
+              <Route exact path='/testimonials' component={Testimonials} />
+              <Route exact path='/blog' component={Blog} />
+
+              <Route exact path='/blog/posts/when-should-I-file-for-bankruptcy' component={WhenShouldIFile} />
+              <Route exact path='/blog/posts/what-to-do-about-the-student-loan-crisis' component={WhatToDoStudentLoans} />
+
+
 
             </div>
           </HashRouter>
