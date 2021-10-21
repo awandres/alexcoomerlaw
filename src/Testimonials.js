@@ -18,7 +18,7 @@ class Testimonials extends Component {
         <div class='about-pg-banner'>
 
           <div class='testimonials-hero'>
-            <h1>Testimonials</h1>
+            <h1>TESTIMONIALS</h1>
 
           </div>
         </div>

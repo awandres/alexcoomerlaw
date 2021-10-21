@@ -50,6 +50,10 @@ a:visited {
   font-size:14px;
 }
 
+.citations a {
+  word-break: break-word;
+}
+
 /* NEW */
 .blog-item-container {
   margin-top:240px;
@@ -1500,8 +1504,7 @@ font-size:18px;
 
   .blog-pg-content-container {
     margin-top:-0px;
-    padding-top:0px;
-    padding-bottom:0px;
+    padding:0px 0px;
     background-color:rgba(247,202,153,.4);
   }
 
@@ -1812,7 +1815,7 @@ font-size:18px;
 .blog-pg-content {
   width:auto;
   margin:0 auto;
-  padding:40px;
+  padding:20px;
 }
 
 .blog-post-list-item h2 {

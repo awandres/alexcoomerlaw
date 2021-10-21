@@ -18,7 +18,7 @@ class Blog extends Component {
       <div class='blog-pg-banner'>
 
         <div class='blog-hero'>
-          <h1>Blog</h1>
+          <h1>BLOG</h1>
 
         </div>
       </div>
