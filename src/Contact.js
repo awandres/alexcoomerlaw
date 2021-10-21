@@ -39,13 +39,13 @@ class Contact extends Component {
         <div class="contact-flex">
 <div class="contact-left">
 
-  <img class="contact-img" src="/assets/img/ACLAW_LOGO.png" />
+  <img class="contact-img" src="assets/img/ACLAW_LOGO.png" />
   <div class="contact-icons">
-    <a href="mailto:alexcoomer@alexcoomerlaw.com" ><img class="email-icon-contact" src="assets/img/email.svg" /></a>
-    <a href="tel:520-372-2475"><img class="phone-icon-contact" src="assets/img/phone-call.svg" /></a>
+    <a href="#" ><img class="email-icon-contact" src="assets/img/email.svg" /></a>
+    <a href="#"><img class="phone-icon-contact" src="assets/img/phone-call.svg" /></a>
     </div>
 
-  <a style={{color:'black', textDecoration:'none'}} href="mailto:alexcoomer@alexcoomerlaw.com" ><p style={{textDecoration:'none'}}>Email: alexcoomer@alexcoomerlaw.com</p></a>
+  <a style={{color:'black', textDecoration:'none'}} href="#" ><p style={{textDecoration:'none'}}>Email: alexcoomer@alexcoomerlaw.com</p></a>
   <a  style={{color:'black', textDecoration:'none'}} href="tel:520-372-2475"><p style={{textDecoration:'none'}}>Phone: (520) 372-2475</p></a>
 </div>
 
