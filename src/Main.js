@@ -200,7 +200,7 @@ Contact
 
           <HashRouter>
             <div className='content'>
-            
+
               <Route exact path='/' component={Home} />
               <Route exact path='/about' component={About} />
               <Route exact path='/services' component={Services} />
@@ -264,11 +264,7 @@ Contact
             </div>
 
             <div className='content'>
-              <div className='messageBlock' style={{textAlign: 'center', position: 'absolute', top: '32%', padding: '40px', backgroundColor: '#f5f5f5'}}>
-                <h3>As of April 1, 2021, Alex Coomer Law is no longer accepting new clients.  As of April 12, 2021, Alex Coomer will be working for the Tucson Criminal Defense Firm of Ralls & Wille.  </h3>
-
-<h3>If you have any questions, please feel free to contact Alex at <a href='mailto:alex@rallslawoffice.com'>alex@rallslawoffice.com</a> or visit <a href='https://rallswillelaw.com'>https://rallswillelaw.com/.</a> </h3>
-</div>
+              
 
               <Route exact path='/' component={Home} />
               <Route exact path='/about' component={About} />
