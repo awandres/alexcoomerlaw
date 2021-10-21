@@ -38,7 +38,7 @@ checkActiveClass(url) {
 
       <div class="disclaimer-div">
 
-      <img src="/assets/img/ACLAW_LOGO.png" />
+      <img src="assets/img/ACLAW_LOGO.png" />
 
       <div>
 

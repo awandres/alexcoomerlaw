@@ -215,7 +215,7 @@ color:black;
 }
 
 #hero-banner {
-  background-image:  url("/assets/img/lawyer-signing-copy.jpg");
+  background-image:  url("assets/img/lawyer-signing-copy.jpg");
   width:100%;
   height:800px;
   background-size:cover;
@@ -338,7 +338,7 @@ color:black;
 }
 
 .form-div {
-  background-image:  url("/assets/img/statue-flipped.jpg");
+  background-image:  url("assets/img/statue-flipped.jpg");
   background-color:#FFCB9A;
   height:auto;
   background-size:contain;
@@ -594,7 +594,7 @@ text-decoration:none;
 }
 
 .services-banner {
-  background-image:  url("/assets/img/table-contract.jpg");
+  background-image:  url("assets/img/table-contract.jpg");
   width:100%;
   height:600px;
   background-size:cover;
@@ -603,7 +603,7 @@ text-decoration:none;
 }
 
 .bankruptcy-banner {
-  background-image:  url("/assets/img/lawyer-forms.jpg");
+  background-image:  url("assets/img/lawyer-forms.jpg");
   width:100%;
   height:600px;
   background-size:cover;
@@ -612,7 +612,7 @@ text-decoration:none;
 }
 
 .faq-banner {
-  background-image:  url("/assets/img/weighing-scales.jpg");
+  background-image:  url("assets/img/weighing-scales.jpg");
   width:100%;
   height:600px;
   background-size:cover;
@@ -805,7 +805,7 @@ padding:20px;
 }
 
 .form-services-pg-div {
-  background-image:  url("/assets/img/lawyer-forms.jpg");
+  background-image:  url("assets/img/lawyer-forms.jpg");
   background-color:#FFCB9A;
   height:650px;
   background-size:contain;
@@ -893,7 +893,7 @@ padding:20px;
 
 
 .about-pg-banner {
-  background-image:  url("/assets/img/alexcourt2.jpg");
+  background-image:  url("assets/img/alexcourt2.jpg");
   width:100%;
   height:800px;
   background-size:cover;
@@ -902,7 +902,7 @@ padding:20px;
 }
 
 .blog-pg-banner {
-  background-image: url("/assets/img/statues-library.jpg");
+  background-image: url("assets/img/statues-library.jpg");
   width:100%;
   height:600px;
   background-size:cover;
@@ -1779,7 +1779,7 @@ font-size:18px;
 }
 
 .form-services-pg-div {
-    background-image: url(/assets/img/lawyer-forms.jpg);
+    background-image: url(assets/img/lawyer-forms.jpg);
     background-color: #FFCB9A;
     height: auto;
     background-size: contain;

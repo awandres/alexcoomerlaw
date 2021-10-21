@@ -303,7 +303,7 @@ It is intimidating and difficult to begin the legal process with many large firm
   <div class="about-section flex-row">
 
   <div class="flex-col">
-    <img id="profile" src="/assets/img/alex1.jpg" />
+    <img id="profile" src="assets/img/alex1.jpg" />
     <h2 class="bio-info">R. Alexander Coomer, Attorney at Law</h2>
     <img class="acbc-logo" src="assets/img/ACBC-logo.png" />
 </div>
