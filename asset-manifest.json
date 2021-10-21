@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/alexcoomerlaw/static/css/main.b0aed4ef.chunk.css",
+    "main.js": "/alexcoomerlaw/static/js/main.eba92838.chunk.js",
+    "main.js.map": "/alexcoomerlaw/static/js/main.eba92838.chunk.js.map",
+    "runtime-main.js": "/alexcoomerlaw/static/js/runtime-main.d89ebb3c.js",
+    "runtime-main.js.map": "/alexcoomerlaw/static/js/runtime-main.d89ebb3c.js.map",
+    "static/js/2.741d32bc.chunk.js": "/alexcoomerlaw/static/js/2.741d32bc.chunk.js",
+    "static/js/2.741d32bc.chunk.js.map": "/alexcoomerlaw/static/js/2.741d32bc.chunk.js.map",
+    "index.html": "/alexcoomerlaw/index.html",
+    "static/css/main.b0aed4ef.chunk.css.map": "/alexcoomerlaw/static/css/main.b0aed4ef.chunk.css.map",
+    "static/js/2.741d32bc.chunk.js.LICENSE.txt": "/alexcoomerlaw/static/js/2.741d32bc.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/alexcoomerlaw/static/media/weighing-scales.45dc94f0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d89ebb3c.js",
+    "static/js/2.741d32bc.chunk.js",
+    "static/css/main.b0aed4ef.chunk.css",
+    "static/js/main.eba92838.chunk.js"
+  ]
+}
